@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --bg-red: #F03C42;
+    --bg-blue: #222374;
+    --bg-gray: #CCCCCC;
+    --text-white: #fff;
+    --text-black: #000000;
+    --text-red: #F03C42;
+    --bg-black: #000000;
+}
+
+* {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--bg-red);
+    color: var(--text-white);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+nav h1 {
+    font-size: 18px;
+}
+
+#header-link {
+    display: flex;
+    align-items: center;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+#section-space {
+    background-color: var(--bg-blue);
+    color: var(--text-white);
+    display: flex;
+    padding: 20px;
+}
+
+.space-card {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.space-card-description {
+    background-color: var(--bg-gray);
+    color: var(--text-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+#section-modality {
+    color: var(--text-red);
+    padding: 20px;
+}
+
+.modality-card {
+    margin: 20px 0px;
+}
+
+.modality-card-description {
+    background-color: var(--bg-blue);
+    color: var(--text-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 12px;  
+}
+
+footer {
+    background-color: var(--bg-black);
+    height: 262px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links a {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#link-insta{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+
+#link-twitter {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+footer a, a:hover {
+    color: var(--text-white);
+    text-decoration: none;
+
+}
+
+footer p {
+    color: var(--text-white);
+}
+
+footer address {
+    color: var(--text-white);
+}
+
+
+
+
+
+
